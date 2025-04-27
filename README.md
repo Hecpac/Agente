@@ -7,7 +7,7 @@ de LangChain ya instalados.
 
 | Archivo | Propósito |
 |---------|-----------|
-| `Dockerfile` | Imagen base **n8nio/n8n 1.26.1** + instalación de `@n8n/nodes-langchain`. |
+| `Dockerfile` | Imagen base ** n8nio/n8n:1.38.2** + instalación de `@n8n/nodes-langchain`. |
 | `.env.example` | Variables de entorno recomendadas. Renómbralo a `.env` o configúralas en Railway. |
 
 ## Deploy rápido en Railway
