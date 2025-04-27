@@ -5,7 +5,7 @@ USER root
 RUN apk add --no-cache git
 
 # Instala los community-nodes (limpiando caché antes y después)
-RUN npm cache clean --force && npm install -g --unsafe-perm @n8n/nodes-langchain && npm cache clean --force
+RUN npm cache clean --force && npm install -g --unsafe-perm @n8n/n8n-nodes-langchain && npm cache clean --force
 
 USER node
 EXPOSE 5678
